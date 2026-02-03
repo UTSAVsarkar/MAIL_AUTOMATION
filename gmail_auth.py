@@ -10,9 +10,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TOKEN_FILE = os.path.join(BASE_DIR, 'token.json')
 CREDENTIAL_FILE = os.path.join(BASE_DIR, 'credential.json')
 
-print("CREDENTIAL_FILE:", CREDENTIAL_FILE)
-
-
 def authenticate_gmail():
     creds = None
 
