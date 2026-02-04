@@ -9,8 +9,6 @@ from gmail_sender import send_reply, mark_as_read
 def wrap_in_professional_template(body_text):
     return f"""Hi,
 
-Thank you for reaching out to us.
-
 {body_text.strip()}
 
 If you have any additional details or questions, please feel free to reply to this email.
